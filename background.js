@@ -6,7 +6,6 @@ document.querySelector('input[name=ACT_login]').click();
 
 
 chrome.browserAction.onClicked.addListener(function(activeTab){
-  console.log("clicked")
   const newURL = 'https://site2.sbisec.co.jp/ETGate/';
   chrome.tabs.create({ url: newURL }, (tab) => {
     chrome.tabs.executeScript(
