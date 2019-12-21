@@ -1,0 +1,17 @@
+{
+  "name": "SBI証券Chrome拡張",
+  "version": "1.0",
+  "description": "SBI証券にワンクリックでログインするためのChrome拡張です。",
+  "permissions": ["tabs", "https://site2.sbisec.co.jp/*"],
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2
+}
