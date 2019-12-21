@@ -1,0 +1,2 @@
+# sbi-extension
+SBI証券にワンクリックでログインするためのChrome拡張です
